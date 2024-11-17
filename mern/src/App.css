@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: #A7E6FF;
+}
+
+#logo{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+#navbar{
+    background-color: #3ABEF9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+i{
+    font-size: 150px;
+    color: red;
+}
+#css{
+    color: #3ABEF9;
+}
+#js{
+    color: #F6FB7A;
+}
+#boostrap{
+    color: #AD49E1;
+}
+#mongod{
+    color: #6EC207;
+}
+#react{
+    color: #78C1F3;
+}
+#node{
+    color: #6EC207;
+   
+}
+#express-icon{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    padding: 2px 7px;
+}
+
+.scroll{
+   
+    background-color: white;
+    /* margin-top: 30%; */
+
+}
+.list #icon-1,#icon-2,#icon-3,#icon-4,#icon-5,#icon-6,#icon-7,#icon-8{
+    font-size: 20px;
+    color: #3ABEF9;
+}
+.list #icon-1,#icon-2,#icon-3,#icon-4,#icon-5,#icon-6,#icon-7,#icon-8{
+    animation: none;
+}
+
+.list{
+    position: fixed;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 30px;
+}
+.list li{
+    justify-content: space-around;
+    padding: 5px;
+    display: block;
+}
+#express{
+    color: black;
+}
+#blue{
+    color: #050C9C;
+}
+.scroll i{
+margin: 10px;
+text-align: center;
+}
+i{
+    animation: move 4s infinite;
+}
+
+@keyframes move{
+    0%{
+        margin-left: -100px;
+    }
+ 
+    100%{
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width:600px) {
+    i{
+        animation: none;
+        
+    }
+    .scroll{
+        background-color: #F4F6FF;
+
+    }
+    .scroll i {
+        display: block;
+    }
+    iframe{
+        width: 200px;
+        height: 200px;
+    }
+   #mernimg{
+    height: 400px;
+    width: 600px;
+    
+   }
+   
+  #text{
+    display: none;
+  }
+  /* .list #icon-1,#icon-2,#icon-3,#icon-4,#icon-5,#icon-6,#icon-7,#icon-8{
+    font-size: 20px;
+    color: #3ABEF9;
+}
+.list #icon-1,#icon-2,#icon-3,#icon-4,#icon-5,#icon-6,#icon-7,#icon-8{
+    animation: none;
+} */
+ .list #icon-1,#icon-2,#icon-3,#icon-4,#icon-5,#icon-6,#icon-7,#icon-8{
+    display: none;
+ }
+.list li i{
+    width: 0px;
+    display: block;
+    height: 10px;
+    margin-left: 7px;
+}
+.list li{
+    height: 40px;
+}
+.list{
+    margin-left: 0px;
+   display: flex;
+    border: none;
+    position: absolute;
+    top: 4px;
+    position: fixed;
+
+}
+.list #express-list{
+    display: none;
+}
+
+.scroll #express-icon{
+    background-color: #F4F6FF;
+     position: absolute;
+     top: 2250px;
+     left: 100px;
+     display: none;
+}
+.center{
+    width: 270px;
+    top: 5px;
+   
+}
+form .center{
+    box-shadow: none;
+    position: absolute;
+    left: 80px;
+}
+.form-group input{
+    width: 200px;
+    max-height: 500px;
+    padding-left: 5px;
+}
+.center #submit{
+    width: 70px;
+}
+
+
+}
+
+@media screen and (max-width:900px) {
+    i{
+        animation: none;
+    }
+    .scroll{
+        background-color: #FAF7F0;
+    }
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+  
+   
+
+}
+
+.title #text{
+    text-align: center;
+    text-shadow:5px 25px 20px rgba(0,0,0,.5) ;
+    display: none;
+    
+}
+#mernimg{
+    width: 10000px;
+    height: 600px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#anime{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    /* box-shadow:34px 32px 30px rgba(0,0,0,.5); */
+    border: #050C9C 2px solid;
+    animation: updown 2s infinite;
+}
+@media screen and (max-width:900px) {
+   @keyframes updown{
+    0%{
+     transform: translatey(0);
+    }
+    50%{
+        transform: translatey(-20px);
+       }
+       100%{
+        transform: translatey(0);
+       } 
+    
+}
+
+
+}
+#para{
+    background-color: white;
+    
+    padding: 10px 15px;
+    border-radius: 15px;
+   opacity: 0.6;
+   box-shadow:20px 5px 25px 20px #fff,20px 5px 25px 20px #fff,20px 5px 25px 20px #fff,20px 5px 25px 20px #fff,20px 5px 25px 20px #fff ;
+}
+#para h5{
+    color: #050C9C;
+}
+#about{
+    margin-top: 100px;
+}
+marquee{
+    background-color: white;
+    box-shadow:20px 5px 25px 20px #fff,20px 5px 25px 20px #fff,20px 5px 25px 20px #fff,20px 5px 25px 20px #fff,20px 5px 25px 20px #fff ;
+    margin-top: 80px;
+}
+section{
+    width: 100vw;
+    max-height: 4000vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#S-html i{
+    animation: jump 2s infinite;
+    text-align: center;
+}
+
+@keyframes jump{
+    0%{
+        transform:translateY(0px) ;
+    }
+    50%{
+        transform:translateY(-15px) ;
+    }
+    100%{
+        transform:translateY(0px) ;
+    }
+}
+ /* .list{
+    display: flex;
+  
+    list-style-type: none;
+   
+    justify-content: space-around;
+  
+} */
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.html-text{
+    text-align: left;
+}
+.get{
+    color: red;
+}
+.get1{
+    color: red;
+}
+#html-img{
+    border-radius: 10px;
+    box-shadow:0px 5px 25px 20px #fff;
+}
+.heading{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.start{
+    color: black;
+    font-size: 0;
+}
+.last{
+    color: #050C9C;
+    text-align: center;
+}
+#S-css i{
+    animation: jumpcss 2s infinite;
+    text-align: center;
+}
+@keyframes jumpcss{
+    0%{
+        transform:translateY(0px) ;
+    }
+    50%{
+        transform:translateY(-15px) ;
+    }
+    100%{
+        transform:translateY(0px) ;
+    }
+}
+
+.table{
+    background-color: white;
+    padding: 4px 4px;
+}
+#above{
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+/* section css */
+
+.css-text{
+    text-align: left;
+}
+#css-head{
+    color: red;
+}
+#syntax{
+    border-radius: 10px;
+}
+.more{
+    text-align: center;
+}
+
+
+/* benifites */
+
+#human{
+    margin-top: 150px;
+   border-radius: 10px;
+   animation: anime 2s linear ;
+}
+@keyframes anime{
+    0%{
+        transform: translateY(-500px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+marquee b{
+    color: red;
+}
+#guidehtml{
+    animation: none;
+}
+#guidecss{
+    animation: none;
+    color: #3ABEF9;
+   
+}
+#guidejs{
+    animation: none;
+    color: #F6FB7A;
+}
+#guideboostrap{
+    animation: none;
+    color:#AD49E1 ;
+}
+#guidemongod{
+    animation: none;
+    color: #6EC207;
+}
+#guidereact{
+    animation: none;
+    color: #78C1F3;
+}
+#guidenode{
+    animation: none;
+    color: #6EC207;
+}
+#guideexpress{
+    animation: none;
+    color: black;
+}
+#guidemongoose{
+    color: #9A7E6F;
+}
+.card8 #e-icon{
+    width: 190px;
+    height: 200px;
+}
+.card1{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px red;
+    text-align: center;
+    border-radius: 10px;
+}
+.card2{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px #3ABEF9;
+    text-align: center;
+    border-radius: 10px;
+}
+.card3{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px #F6FB7A;
+    text-align: center;
+    border-radius: 10px;
+}
+.card4{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px #AD49E1;
+    text-align: center;
+    border-radius: 10px;
+}
+.card5{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px #6EC207;
+    text-align: center;
+    border-radius: 10px;
+}
+.card6{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px #78C1F3;
+    text-align: center;
+    border-radius: 10px;
+}
+.card7{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px #6EC207;
+    text-align: center;
+    border-radius: 10px;
+}
+.card8{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px black;
+    text-align: center;
+    border-radius: 10px;
+}
+.card9{
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px 6px;
+    box-shadow: 20px 15px 20px #9A7E6F;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card8:hover,.card7:hover,.card6:hover,.card5:hover,.card4:hover,.card3:hover,.card2:hover,.card1:hover,.card9:hover{
+    color: white;
+    opacity: 0.1;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+/* section js */
+#S-js i{
+    animation: jumpcss 2s infinite;
+    text-align: center;
+}
+@keyframes jumpcss{
+    0%{
+        transform:translateY(0px) ;
+    }
+    50%{
+        transform:translateY(-20px) ;
+    }
+    100%{
+        transform:translateY(0px) ;
+    }
+}
+.js-text{
+    text-align: left;
+}
+#S-js table td{
+    font-size: 12px;
+}
+
+/* section boostrap */
+#S-boostrap i{
+    animation: jumpcss 2s infinite;
+    text-align: center;
+}
+.boostrap-text{
+    text-align: left;
+}
+#boos-link{
+    color: #050C9C;
+
+}
+#link,#script{
+    color: #050C9C;
+    border: 1px solid black;
+    padding: 3px 4px;
+}
+/* section mongod */
+#S-mongod i{
+    animation: jumpcss 2s infinite;
+    text-align: center;
+}
+.mongod-text{
+    text-align: left;
+}
+/* section react */
+#S-react i{
+    animation: jumpcss 2s infinite;
+    text-align: center;
+}
+.react-text{
+    text-align: left;
+}
+/* section node */
+#S-nodejs i{
+    animation: jumpcss 2s infinite;
+    text-align: center;
+}
+.node-text{
+    text-align: left;
+}
+/* section express */
+#S-express #e-icon{
+    animation: jumpcss 2s infinite;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+.express-text{
+    text-align: left;
+}
+.express-text b{
+    background-color: rgba(255, 216, 165, 0.692);
+    padding: 5px 5px;
+}
+#happy{
+    color: #050C9C;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* sign page */
+.form-group{
+    width: 400px;
+    max-height: 500px;
+  
+}
+.center{
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 35%;
+      left: 35%;
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 20px 20px 15px 15px rgba(0,0,0,.5);
+ 
+}
+
+#submit{
+    width: 300px;
+    color: white;
+    background-color: #3ABEF9;
+    border: #050C9C;
+    margin-left: 40px;
+}
+#submit:hover{
+    color: #fff;
+    opacity: 0.7;
+}
+/* container */
+
+.list #express-list{
+    background-color: #3ABEF9;
+    border-radius: 50%;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
