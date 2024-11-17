@@ -3,10 +3,15 @@ const mongoose=require('mongoose')
 const cors=require('cors')
 const empModel=require('./employeeModel')
 require('dotenv').config()
+
+
 const app=express()
 app.use(express.json())
 
 app.use(cors())
+app.get('/',(req,res)=>{
+    res.send("hello")
+})
 
 mongoose.connect(process.env.MONGODB_URL)
 
